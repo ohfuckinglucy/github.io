@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+    <script src="js/counter.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+  </head>
+  <body>
+    <div id="resume">
+      <h1 class="editable" contenteditable="true">Имя Фамилия</h1>
+      <p class="editable" contenteditable="true">Позиция</p>
+      <section>
+        <h2>Контакты</h2>
+        <p class="editable" contenteditable="true">Телефон: +123456789</p>
+        <p class="editable" contenteditable="true">Email: example@email.com</p>
+      </section>
+      <section>
+        <h2>Опыт работы</h2>
+        <div class="editable" contenteditable="true">Описание опыта работы</div>
+      </section>
+      <section>
+        <h2>Навыки</h2>
+        <ul>
+          <li class="editable" contenteditable="true">Навык 1</li>
+          <li class="editable" contenteditable="true">Навык 2</li>
+        </ul>
+      </section>
+      <button id="downloadBtn">Скачать PDF</button>
+    </div>
+    <script src="js/script.js" defer></script>
+  </body>
+</html>
